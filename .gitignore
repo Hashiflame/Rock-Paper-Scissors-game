@@ -1,0 +1,37 @@
+# Ignore compiled Java class files
+bin/
+*.class
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore IDE settings (IntelliJ, Eclipse, NetBeans)
+*.iml
+.idea/
+*.log
+*.cache/
+*.project
+*.classpath
+*.factorypath
+*.settings/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency and build-related files
+target/
+out/
+dist/
+build/
+
+# Ignore Maven/Gradle files (if used)
+*.jar
+*.war
+*.ear
+*.gradle
+.gradle/
+mvnw*
+!mvnw.cmd
+!mvnw
+pom.xml
